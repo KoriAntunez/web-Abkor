@@ -24,10 +24,6 @@ module.exports = {
 			{
 				src:
 					'https://maps.googleapis.com/maps/api/js?key=AIzaSyBIGwxjiaQfXkN2kLfPqMvQS6QaGr-zEdw&libraries=places'
-			},
-			{
-				src:
-					'https://www.google.com/recaptcha/api.js?render=6Ld0e7AUAAAAAMgqtPAccNA4bWCQXT6qMb9OB3EJ'
 			}
 		]
 	},
