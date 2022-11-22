@@ -7,7 +7,7 @@
 					v-btn(text to="/" style="height: 100%" dark)
 						v-img(:src="configuration.company.logo" width="180px")
 				v-spacer
-				v-autocomplete.pt-6(v-model="modelProduct" rounded :loading="isLoadingSearch" :items="products" :search-input.sync="searchProduct" hide-no-data hide-selected label="Que libro busca?" return-object cache-items solo-inverted)
+				v-autocomplete.pt-6(v-model="modelProduct" rounded :loading="isLoadingSearch" :items="products" :search-input.sync="searchProduct" hide-no-data hide-selected label="Que desea buscar?" return-object cache-items solo-inverted)
 				v-spacer
 				v-toolbar-items
 					v-menu(v-model="mShoppingCart" :close-on-content-click="false" :nudge-width="200" offset-y)
