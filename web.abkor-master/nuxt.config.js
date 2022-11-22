@@ -26,14 +26,15 @@ module.exports = {
 					'https://maps.googleapis.com/maps/api/js?key=AIzaSyBIGwxjiaQfXkN2kLfPqMvQS6QaGr-zEdw&libraries=places'
 			},
 			{
-				src: ''
+				src:
+					'https://www.google.com/recaptcha/api.js?render=6Ld0e7AUAAAAAMgqtPAccNA4bWCQXT6qMb9OB3EJ'
 			}
 		]
 	},
 	/*
 	 ** Customize the progress-bar color
 	 */
-	loading: { color: '#fff' },
+	loading: { color: '' },
 	/*
 	 ** Global CSS
 	 */
